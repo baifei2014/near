@@ -14,12 +14,6 @@
             </dataSource>
         </environment>
     </environments>
-    <properties resource="org/mybatis/example/config.properties">
-        <property name="driver" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://127.0.0.1:3306/test?autoreconnect = true"/>
-        <property name="username" value="root"/>
-        <property name="password" value="root"/>
-    </properties>
     <mappers>
         <mapper resource="org/mybatis/example/BlogMapper.xml"/>
     </mappers>
